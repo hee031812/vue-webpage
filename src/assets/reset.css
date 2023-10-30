@@ -1,0 +1,129 @@
+/* fonts */
+@import url('https://webfontworld.github.io/score/SCoreDream.css');
+
+.dream {
+    font-family: 'SCoreDream';
+    font-weight: 400;
+}
+
+/* 여백 초기화 */
+body,
+div,
+dl,
+dd,
+dt,
+ul,
+li,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+p,
+table,
+th,
+td,
+input,
+figure,
+figcaption,
+blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+/* box-sizing 초기화 */
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+}
+
+em {
+    font-style: normal;
+}
+
+.blind {
+    width: 0;
+    height: 0;
+    line-height: 0;
+    overflow: hidden;
+    position: absolute;
+    text-indent: -99999px;
+}
+
+.ir {
+    display: block;
+    overflow: hidden;
+    font-size: 0;
+    line-height: 0;
+    text-indent: -9999px;
+}
+
+
+/* common */
+.container {
+    width: 1160px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.section {
+    padding: 120px 0;
+}
+
+.section h2 {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.section>span {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.section>p {
+    font-size: 22px;
+    font-size: 300;
+    margin-bottom: 65px;
+    text-align: center;
+    color: #777;
+}
