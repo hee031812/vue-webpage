@@ -40,17 +40,17 @@ export default {
         return {
             cardInfo: [
                 {
-                    img: "@assets/img/card_bg01.jpg",
+                    img: "src/assets/img/card_bg01.jpg",
                     tilte: "웹표준 사이트 만들기",
                     desc: "사이트를 만들기 위한 기초 강의입니다. 기본 코딩에 대한 감각을 익히고, 웹 표준을 준수하면서 코딩하는 방법을 익힙니다. 다양한 예제를 통해 사이트를 만드는 사이....."
                 },
                 {
-                    img: "@assets/img/card_bg02.jpg",
+                    img: "src/assets/img/card_bg02.jpg",
                     tilte: "반응형 사이트 만들기",
                     desc: "사이트를 만들기 위한 기초 강의입니다. 기본 코딩에 대한 감각을 익히고, 웹 표준을 준수하면서 코딩하는 방법을 익힙니다. 다양한 예제를 통해 사이트를 만드는 사이....."
                 },
                 {
-                    img: "@assets/img/card_bg03.jpg",
+                    img: "src/assets/img/card_bg03.jpg",
                     tilte: "패럴랙스 사이트 만들기",
                     desc: "사이트를 만들기 위한 기초 강의입니다. 기본 코딩에 대한 감각을 익히고, 웹 표준을 준수하면서 코딩하는 방법을 익힙니다. 다양한 예제를 통해 사이트를 만드는 사이....."
                 }
