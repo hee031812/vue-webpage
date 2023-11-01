@@ -1,4 +1,6 @@
+
 <template>
+    
     <section id="cardType" :class="['cardType section', element]">
         <h2>{{ title }}</h2>
         <p>
@@ -30,6 +32,11 @@
 </template>
 
 <script>
+
+import cardBg01 from '../assets/img/card_bg01.jpg'
+import cardBg02 from '../assets/img/card_bg02.jpg'
+import cardBg03 from '../assets/img/card_bg03.jpg'
+
 export default {
     props: {
         element: String,
@@ -40,17 +47,17 @@ export default {
         return {
             cardInfo: [
                 {
-                    img: "src/assets/img/card_bg01.jpg",
+                    img: cardBg01,
                     tilte: "웹표준 사이트 만들기",
                     desc: "사이트를 만들기 위한 기초 강의입니다. 기본 코딩에 대한 감각을 익히고, 웹 표준을 준수하면서 코딩하는 방법을 익힙니다. 다양한 예제를 통해 사이트를 만드는 사이....."
                 },
                 {
-                    img: "src/assets/img/card_bg02.jpg",
+                    img: cardBg02,
                     tilte: "반응형 사이트 만들기",
                     desc: "사이트를 만들기 위한 기초 강의입니다. 기본 코딩에 대한 감각을 익히고, 웹 표준을 준수하면서 코딩하는 방법을 익힙니다. 다양한 예제를 통해 사이트를 만드는 사이....."
                 },
                 {
-                    img: "src/assets/img/card_bg03.jpg",
+                    img: cardBg03,
                     tilte: "패럴랙스 사이트 만들기",
                     desc: "사이트를 만들기 위한 기초 강의입니다. 기본 코딩에 대한 감각을 익히고, 웹 표준을 준수하면서 코딩하는 방법을 익힙니다. 다양한 예제를 통해 사이트를 만드는 사이....."
                 }
